@@ -1,0 +1,27 @@
+{
+  "name": "to_do_api",
+  "version": "1.0.0",
+  "description": "This repo holds the API for the REACT application To_Do at https://github.com/YomNom/To_Do.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YomNom/To_Do_API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YomNom/To_Do_API/issues"
+  },
+  "homepage": "https://github.com/YomNom/To_Do_API#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
